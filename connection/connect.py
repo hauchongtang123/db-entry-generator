@@ -1,9 +1,9 @@
-from config.configuration import config
+from config.configuration import config_db
 import mysql.connector
 
 def connect():
     try:
-        params = config()
+        params = config_db()
 
         print("Connecting to mySQL database...")
         # Connect to sql server
@@ -25,7 +25,7 @@ def connect():
 def connect_cursor():
     conn = None
     try:
-        params = config()
+        params = config_db()
 
         print("Connecting to mySQL database...")
         # Connect to sql server
