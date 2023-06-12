@@ -36,6 +36,3 @@ def connect_cursor():
         return conn, cur
     except (Exception, mysql.connector.DatabaseError) as error:
         print(error)
-
-if __name__ == '__main__':
-    connect()
