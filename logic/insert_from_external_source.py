@@ -1,5 +1,6 @@
 import requests
 
+
 def get_from_mockaroo(source, params):
     # Make request to Mockaroo endpoint
     response = requests.get(url=source, params=params)

@@ -32,3 +32,6 @@ env/
 
 # Testing
 pytest_cache/
+
+# CSV
+*.csv

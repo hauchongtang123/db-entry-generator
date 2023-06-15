@@ -14,4 +14,10 @@
         url=url
         key=api key
         count=num of rows to generate
+
+    c. api.ini
+        
+        [api_name]
+        base_url=base_url
+        
 2. Run main.py

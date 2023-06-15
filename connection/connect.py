@@ -1,6 +1,7 @@
 from config.configuration import config_db
 import mysql.connector
 
+
 def connect():
     try:
         params = config_db()
@@ -21,6 +22,7 @@ def connect():
         if conn is not None:
             conn.close()
             print('Database connection closed.')
+
 
 def connect_cursor():
     conn = None
